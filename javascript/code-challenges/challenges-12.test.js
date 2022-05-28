@@ -10,6 +10,7 @@ const replaceZeros = (string) => {
   // Solution code here...
   let regex = /0/g;
   return(string.replace(regex, 'zero'));
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -37,7 +38,7 @@ If the word is between 5 and 10 characters long, return true. Otherwise, return 
 
 const validateWord = (word) => {
   // Solution code here...
-  let regex = /(^[A-Za-z]{5,10}$)/g;
+let regex = /(^[A-Za-z]{5,10}$)/g;
   let result = regex.test(word);
   return result;
 };
