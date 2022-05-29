@@ -10,6 +10,7 @@ const replaceZeros = (string) => {
   // Solution code here...
   let regex = /0/g;
   return(string.replace(regex, 'zero'));
+
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -119,8 +120,6 @@ findTagNames(['<div><h1>Hello, world!</h1></div>', '<p>Welcome to my site</p>'])
 
 const findTagNames = elements => {
   // Solution code here...
-  const pattern = /(<([A-Z][A-Z0-9]*)\b[^>]*>(.*?)</\1>)/;
-  return elements.match(pattern)[1];
 };
 
 /* ------------------------------------------------------------------------------------------------
