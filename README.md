@@ -24,3 +24,4 @@ To run your tests
 - **Array Reverse Challange** [here](./javascript/code-challenges/array-reverse/README.md)
 - **Array Insert Shift Challange** [here](./javascript/code-challenges/array-insert-shift/README.md)
 - **Linked List** [here](./javascript/linked-list1/linkedlist.md)
+- **Array Binary Search** [here](./javascript/code-challenges/array-binary-search/README.md)

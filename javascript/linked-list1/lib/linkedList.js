@@ -5,7 +5,7 @@ const Node= require('./node');
 class LinkedList {
   constructor(){
     this.head = null;
-    this.tail= null;
+    // this.tail= null;
     this.length = 0;
   }
   AddToHead(value){
@@ -15,11 +15,11 @@ class LinkedList {
     let nodeInserted = new Node(value);
     if (this.head === null){
       this.head = nodeInserted;
-      this.tail = nodeInserted;
+      // this.tail = nodeInserted;
     }
     else{
-      this.tail.next = nodeInserted;
-      this.tail = nodeInserted;
+      // this.tail.next = nodeInserted;
+      // this.tail = nodeInserted;
     }
     this.length++;
   }
