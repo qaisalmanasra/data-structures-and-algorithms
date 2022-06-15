@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1655153275222" clover="3.2.0">
-  <project timestamp="1655153275223" name="All files">
-    <metrics statements="66" coveredstatements="61" conditionals="12" coveredconditionals="11" methods="10" coveredmethods="9" elements="88" coveredelements="81" complexity="0" loc="66" ncloc="66" packages="1" files="2" classes="2"/>
-    <file name="linkedList.js" path="/home/qaismaher/data-structures-and-algorithms/javascript/linked-list-insertions/lib/linkedList.js">
-      <metrics statements="63" coveredstatements="58" conditionals="12" coveredconditionals="11" methods="9" coveredmethods="8"/>
+<coverage generated="1655321104109" clover="3.2.0">
+  <project timestamp="1655321104109" name="All files">
+    <metrics statements="79" coveredstatements="74" conditionals="16" coveredconditionals="15" methods="11" coveredmethods="10" elements="106" coveredelements="99" complexity="0" loc="79" ncloc="79" packages="1" files="2" classes="2"/>
+    <file name="linkedList.js" path="/home/qaismaher/data-structures-and-algorithms/javascript/linked-list-kth/lib/linkedList.js">
+      <metrics statements="76" coveredstatements="71" conditionals="16" coveredconditionals="15" methods="10" coveredmethods="9"/>
       <line num="3" count="1" type="stmt"/>
-      <line num="7" count="14" type="stmt"/>
-      <line num="8" count="14" type="stmt"/>
-      <line num="9" count="14" type="stmt"/>
+      <line num="7" count="19" type="stmt"/>
+      <line num="8" count="19" type="stmt"/>
+      <line num="9" count="19" type="stmt"/>
       <line num="12" count="0" type="stmt"/>
-      <line num="15" count="27" type="stmt"/>
-      <line num="16" count="27" type="cond" truecount="2" falsecount="0"/>
-      <line num="17" count="12" type="stmt"/>
-      <line num="18" count="12" type="stmt"/>
-      <line num="21" count="15" type="stmt"/>
-      <line num="22" count="15" type="stmt"/>
-      <line num="24" count="27" type="stmt"/>
+      <line num="15" count="40" type="stmt"/>
+      <line num="16" count="40" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="17" type="stmt"/>
+      <line num="18" count="17" type="stmt"/>
+      <line num="21" count="23" type="stmt"/>
+      <line num="22" count="23" type="stmt"/>
+      <line num="24" count="40" type="stmt"/>
       <line num="27" count="2" type="stmt"/>
       <line num="28" count="2" type="stmt"/>
       <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
@@ -64,14 +64,27 @@
       <line num="93" count="2" type="stmt"/>
       <line num="94" count="2" type="stmt"/>
       <line num="96" count="3" type="stmt"/>
-      <line num="101" count="1" type="stmt"/>
-      <line num="102" count="1" type="stmt"/>
-      <line num="104" count="1" type="stmt"/>
+      <line num="100" count="5" type="stmt"/>
+      <line num="101" count="5" type="stmt"/>
+      <line num="102" count="5" type="stmt"/>
+      <line num="103" count="13" type="stmt"/>
+      <line num="104" count="13" type="stmt"/>
+      <line num="106" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="107" count="1" type="stmt"/>
+      <line num="109" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="110" count="1" type="stmt"/>
+      <line num="112" count="3" type="stmt"/>
+      <line num="113" count="3" type="stmt"/>
+      <line num="114" count="1" type="stmt"/>
+      <line num="116" count="3" type="stmt"/>
+      <line num="120" count="1" type="stmt"/>
+      <line num="121" count="1" type="stmt"/>
+      <line num="123" count="1" type="stmt"/>
     </file>
-    <file name="node.js" path="/home/qaismaher/data-structures-and-algorithms/javascript/linked-list-insertions/lib/node.js">
+    <file name="node.js" path="/home/qaismaher/data-structures-and-algorithms/javascript/linked-list-kth/lib/node.js">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <line num="4" count="36" type="stmt"/>
-      <line num="5" count="36" type="stmt"/>
+      <line num="4" count="49" type="stmt"/>
+      <line num="5" count="49" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
     </file>
   </project>
