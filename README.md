@@ -26,3 +26,5 @@ To run your tests
 - **Linked List** [here](./javascript/linked-list1/linkedlist.md)
 - **Array Binary Search** [here](./javascript/code-challenges/array-binary-search/README.md)
 - **Linked list insertions** [here](./javascript/linked-list-insertions/README.md)
+- **linked list kth** [here](./javascript/linked-list-kth/README.md)
+- **linked list zip** [here](./javascript/linked-list-zip/README.md)
