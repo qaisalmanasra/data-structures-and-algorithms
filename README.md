@@ -29,3 +29,4 @@ To run your tests
 - **linked list kth** [here](./javascript/linked-list-kth/README.md)
 - **linked list zip** [here](./javascript/linked-list-zip/README.md)
 - **Stack and queue** [here](./javascript/stack-and-queue/README.md)
+- **Psuedo queue** [here](./javascript/psuedoQueue/README.md)
