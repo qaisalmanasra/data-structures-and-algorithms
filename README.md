@@ -33,3 +33,4 @@ To run your tests
 - **Stack Queue Animal Shelter** [here](./javascript/stack-queue-animal-shelter/README.md)
 - **Stack Queue Brackets**[here](./javascript/stack-queue-brackets/README.md)
 - **Trees**[here](./javascript/trees/trees.md)
+- **Tree Max**[here](./javascript/trees/treemax.md)

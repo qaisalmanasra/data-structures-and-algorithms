@@ -30,7 +30,7 @@ class BinarySearchTree {
     }
   }
 
-  contains(value) {
+  Contains(value) {
     let isHere = false;
     let search = (node) => {
       if (node.value === value) isHere = true;
@@ -39,6 +39,23 @@ class BinarySearchTree {
     };
     search(this.root);
     return isHere;
+  }
+
+  Max() {
+    let max = 0;
+    let traverse = (node) => {
+      if (node.value > max) {
+        max = node.value;
+      }
+      if (node.left) {
+        traverse(node.left);
+      }
+      if (node.right) {
+        traverse(node.right);
+      }
+    };
+    traverse(this.root);
+    return max;
   }
 }
 

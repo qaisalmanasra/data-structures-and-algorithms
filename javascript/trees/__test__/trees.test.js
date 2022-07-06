@@ -62,4 +62,11 @@ describe("Binary Tree", () => {
     let postOrder = tree.postOrder();
     expect(postOrder).toEqual(expectedOutput);
   });
+  test('Can find the maximum value stored in the tree', () => {
+    const BTS = new BinarySearchTree();
+    BTS.Add(9);
+    BTS.Add(2);
+    BTS.Add(20);
+    expect(BTS.Max()).toEqual(20);
+  });
 });
