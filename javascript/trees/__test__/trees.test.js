@@ -69,4 +69,16 @@ describe("Binary Tree", () => {
     BTS.Add(20);
     expect(BTS.Max()).toEqual(20);
   });
+  test('Can traverse a binary tree (breadth first left)', () => {
+    const tree = new BinarySearchTree();
+    tree.Add(2);
+    tree.Add(1);
+    expect(tree.breadthFirst(tree)).toEqual([2, 1]);
+  });
+  test('Can traverse a binary tree (breadth first right)', () => {
+    const tree = new BinarySearchTree();
+    tree.Add(1);
+    tree.Add(2);
+    expect(tree.breadthFirst(tree)).toEqual([1, 2]);
+  });
 });
