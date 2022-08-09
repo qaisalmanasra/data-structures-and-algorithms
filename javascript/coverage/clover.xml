@@ -1,83 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1657240571560" clover="3.2.0">
-  <project timestamp="1657240571561" name="All files">
-    <metrics statements="68" coveredstatements="61" conditionals="40" coveredconditionals="32" methods="15" coveredmethods="13" elements="123" coveredelements="106" complexity="0" loc="68" ncloc="68" packages="1" files="3" classes="3"/>
-    <file name="binary-search-tree.js" path="/home/qaismaher/data-structures-and-algorithms/javascript/trees/binary-search-tree.js">
-      <metrics statements="41" coveredstatements="34" conditionals="25" coveredconditionals="17" methods="7" coveredmethods="5"/>
+<coverage generated="1660074193234" clover="3.2.0">
+  <project timestamp="1660074193234" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1" elements="20" coveredelements="20" complexity="0" loc="17" ncloc="17" packages="1" files="1" classes="1"/>
+    <file name="insertionSort.js" path="/home/qaismaher/data-structures-and-algorithms/javascript/insertion-sort/insertionSort.js">
+      <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <line num="3" count="1" type="stmt"/>
-      <line num="7" count="4" type="stmt"/>
-      <line num="11" count="10" type="stmt"/>
-      <line num="12" count="10" type="cond" truecount="2" falsecount="0"/>
-      <line num="13" count="4" type="stmt"/>
-      <line num="16" count="6" type="stmt"/>
-      <line num="17" count="6" type="cond" truecount="2" falsecount="0"/>
-      <line num="18" count="3" type="cond" truecount="1" falsecount="1"/>
-      <line num="19" count="3" type="stmt"/>
-      <line num="20" count="3" type="stmt"/>
-      <line num="24" count="3" type="cond" truecount="1" falsecount="1"/>
-      <line num="25" count="3" type="stmt"/>
-      <line num="26" count="3" type="stmt"/>
-      <line num="34" count="0" type="stmt"/>
-      <line num="35" count="0" type="stmt"/>
-      <line num="36" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="37" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
-      <line num="40" count="0" type="stmt"/>
-      <line num="41" count="0" type="stmt"/>
-      <line num="45" count="1" type="stmt"/>
-      <line num="46" count="1" type="stmt"/>
-      <line num="47" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="48" count="2" type="stmt"/>
-      <line num="50" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="51" count="1" type="stmt"/>
-      <line num="53" count="3" type="cond" truecount="2" falsecount="0"/>
-      <line num="54" count="1" type="stmt"/>
-      <line num="57" count="1" type="stmt"/>
-      <line num="58" count="1" type="stmt"/>
-      <line num="61" count="2" type="stmt"/>
-      <line num="62" count="2" type="stmt"/>
-      <line num="63" count="2" type="stmt"/>
-      <line num="64" count="4" type="stmt"/>
-      <line num="65" count="4" type="stmt"/>
-      <line num="66" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="67" count="1" type="stmt"/>
-      <line num="69" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="70" count="1" type="stmt"/>
-      <line num="73" count="2" type="stmt"/>
-      <line num="77" count="1" type="stmt"/>
-    </file>
-    <file name="binary-tree.js" path="/home/qaismaher/data-structures-and-algorithms/javascript/trees/binary-tree.js">
-      <metrics statements="23" coveredstatements="23" conditionals="13" coveredconditionals="13" methods="7" coveredmethods="7"/>
-      <line num="4" count="3" type="stmt"/>
-      <line num="8" count="1" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
-      <line num="10" count="9" type="stmt"/>
-      <line num="12" count="9" type="cond" truecount="2" falsecount="0"/>
-      <line num="14" count="9" type="cond" truecount="2" falsecount="0"/>
-      <line num="16" count="1" type="stmt"/>
-      <line num="17" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="9" count="7" type="stmt"/>
+      <line num="10" count="35" type="stmt"/>
+      <line num="11" count="35" type="stmt"/>
+      <line num="12" count="35" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="50" type="stmt"/>
+      <line num="14" count="50" type="stmt"/>
+      <line num="16" count="35" type="stmt"/>
+      <line num="18" count="7" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
       <line num="22" count="1" type="stmt"/>
       <line num="23" count="1" type="stmt"/>
-      <line num="26" count="9" type="cond" truecount="2" falsecount="0"/>
-      <line num="27" count="9" type="stmt"/>
-      <line num="29" count="9" type="cond" truecount="2" falsecount="0"/>
-      <line num="31" count="1" type="stmt"/>
-      <line num="32" count="1" type="stmt"/>
-      <line num="37" count="1" type="stmt"/>
-      <line num="38" count="1" type="stmt"/>
-      <line num="41" count="9" type="cond" truecount="2" falsecount="0"/>
-      <line num="43" count="9" type="cond" truecount="2" falsecount="0"/>
-      <line num="44" count="9" type="stmt"/>
-      <line num="46" count="1" type="stmt"/>
-      <line num="47" count="1" type="stmt"/>
-      <line num="51" count="1" type="stmt"/>
-    </file>
-    <file name="node.js" path="/home/qaismaher/data-structures-and-algorithms/javascript/trees/node.js">
-      <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-      <line num="4" count="19" type="stmt"/>
-      <line num="5" count="19" type="stmt"/>
-      <line num="6" count="19" type="stmt"/>
-      <line num="9" count="1" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="26" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>

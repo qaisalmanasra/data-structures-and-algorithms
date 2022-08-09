@@ -1,0 +1,2 @@
+![](./insertionSortStep.jpg)
+![](./insertionSortTest.jpg)
