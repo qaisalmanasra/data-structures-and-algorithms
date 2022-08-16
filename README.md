@@ -37,3 +37,4 @@ To run your tests
 - **Tree Breadth First**[here](./javascript/trees/tree-breadth-first.md)
 - **Insertion Sort**[here](./javascript/insertion-sort/README.md)
 - **MergeSort**[here](./javascript/merseSort/mergeSort.md)
+- **Quick Sort**[here](./javascript/quickSort/quickSort.md)
